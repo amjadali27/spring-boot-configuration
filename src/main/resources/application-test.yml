@@ -1,0 +1,14 @@
+greeting.message: "Welcome To Testing WORLD"
+mylist: "one,two,three"
+dbValues: "{url:'htt://localhost---', userName:'abcd123', password:'pwd123'}"
+
+db:
+  connectionUrl: com.jdbc.mysql.testing
+  host: localhost/testing
+  port: 3308
+
+management.endpoints.web.exposure.include: "*"
+
+spring:
+  application:
+    name: My Test App
